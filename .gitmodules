@@ -1,0 +1,4 @@
+[submodule "log4cplus"]
+	path = log4cplus
+	url = git@github.com:log4cplus/log4cplus.git
+	branch = master
