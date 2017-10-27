@@ -12,6 +12,6 @@
 #include <string>
 #include <windows.h>
 #include "StringToolbox.h"
-
+#include "Logger.h"
 
 // TODO: reference additional headers your program requires here

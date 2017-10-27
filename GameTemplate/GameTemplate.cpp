@@ -1,13 +1,9 @@
-// GameTemplate.cpp : Defines the entry point for the console application.
-//
-
 #include "stdafx.h"
-#include "MainWindow.h"
+#include "GameTemplate.h"
 
-int main()
+GameTemplate::GameTemplate(QWidget *parent)
+    : QMainWindow(parent)
 {
-    MainWindow win;
-
-    return 0;
+    ui.setupUi(this);
+    LOG_TRACE(L"Creating main window");
 }
-
