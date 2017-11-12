@@ -3,11 +3,10 @@
 #include <log4cplus/loggingmacros.h>
 #include <log4cplus/configurator.h>
 #include "Constants.h"
-#include <filesystem>
-#include <libloaderapi.h>
+#include "StringToolbox.h"
+#include "FileToolbox.h"
 
 static log4cplus::ConfigureAndWatchThread* configurator = nullptr;
-static CLogger PrivateImpl;
 
 CLogger::CLogger() : initializer()
 {
@@ -21,23 +20,22 @@ CLogger::~CLogger()
         delete configurator;
         configurator = nullptr;
     }
+
+    log4cplus::threadCleanup();
 }
 
 void CLogger::log(std::string const& context, size_t const line, std::wstring const & text, const log4cplus::LogLevel ll)
 {
-    wchar_t buffer[MAX_PATH];
-    GetModuleFileName( nullptr, buffer, MAX_PATH );
-    std::experimental::filesystem::path path( buffer );
-    path = path.remove_filename();
+    auto path( Toolbox::FileToolbox::ToAbsolutePath( CONST_LOG_FILE_NAME ) );
 
-    if (configurator == nullptr && std::experimental::filesystem::exists( path.append( L"\\" + CONST_LOG_FILE_NAME ) ))
+    if (configurator == nullptr && Toolbox::FileToolbox::Exists( path ))
     {
         configurator = new log4cplus::ConfigureAndWatchThread( path );
     }
 
     if (configurator != nullptr)
     {
-        auto logger = log4cplus::Logger::getInstance( StringToolbox::StringToWide( context ) );
+        auto logger = log4cplus::Logger::getInstance(Toolbox::StringToolbox::StringToWide( context ) );
         auto format = L"Line number " + std::to_wstring( line ) + L" : " + text;
 
         switch (ll)
@@ -64,4 +62,9 @@ void CLogger::log(std::string const& context, size_t const line, std::wstring co
             break;
         }
     }
+}
+
+void CLogger::log( std::string const& context, size_t const line, std::string const & text, const log4cplus::LogLevel ll )
+{
+    log(context, line, Toolbox::StringToolbox::StringToWide(text), ll );
 }
