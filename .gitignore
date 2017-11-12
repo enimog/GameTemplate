@@ -36,3 +36,6 @@ ipch/
 *.opendb
 *.db
 x64/
+Debug/
+Release/
+*log.txt

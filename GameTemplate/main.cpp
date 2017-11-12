@@ -1,11 +1,11 @@
 #include "stdafx.h"
-#include "GameTemplate.h"
-#include <QtWidgets/QApplication>
+#include "MainWindow.h"
+#include "Logger.h"
 
-int main(int argc, char *argv[])
+int WINAPI wWinMain( HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow )
 {
-    QApplication a(argc, argv);
-    GameTemplate w;
-    w.show();
-    return a.exec();
+    CLogger logger;
+    MainWindow window;
+
+    return window.exec();
 }
