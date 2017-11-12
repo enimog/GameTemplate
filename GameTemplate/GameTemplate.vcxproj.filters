@@ -10,74 +10,122 @@
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
-      <Extensions>qrc;*</Extensions>
-      <ParseFiles>false</ParseFiles>
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Form Files">
-      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
-      <Extensions>ui</Extensions>
+    <Filter Include="include">
+      <UniqueIdentifier>{26d0e9ba-cc32-425d-bbf7-5f0ae9df9845}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
-      <Extensions>qrc;*</Extensions>
-      <ParseFiles>false</ParseFiles>
+    <Filter Include="include\SFML">
+      <UniqueIdentifier>{c73fdf7a-2742-4eb8-9ff8-93ebe397324e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Generated Files">
-      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
-      <Extensions>moc;h;cpp</Extensions>
-      <SourceControlFiles>False</SourceControlFiles>
+    <Filter Include="include\SFML\Audio">
+      <UniqueIdentifier>{968e2c02-44e7-460e-8901-e21a415127cf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Generated Files\Debug">
-      <UniqueIdentifier>{d9f6adf6-d79d-4dd1-90a2-34193c2c7ba7}</UniqueIdentifier>
-      <Extensions>cpp;moc</Extensions>
-      <SourceControlFiles>False</SourceControlFiles>
+    <Filter Include="include\SFML\Graphics">
+      <UniqueIdentifier>{3eb69f65-5fd9-4f82-8da5-4b98c51e7de7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Generated Files\Release">
-      <UniqueIdentifier>{88a62795-9e4f-4b83-8fa5-029d8dea3c58}</UniqueIdentifier>
-      <Extensions>cpp;moc</Extensions>
-      <SourceControlFiles>False</SourceControlFiles>
+    <Filter Include="include\SFML\Network">
+      <UniqueIdentifier>{f45bdc4c-eef8-4ca3-9c1d-ee3ac48ab33d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\SFML\System">
+      <UniqueIdentifier>{1b8aa6d6-8584-4d0b-95c5-05a471ab8add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\SFML\Window">
+      <UniqueIdentifier>{e24f8b6e-5f59-49ee-869b-b403810c4b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\log4cplus">
+      <UniqueIdentifier>{4da75e6d-8946-48c7-b6fd-7d9a74e8f855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\log4cplus\config">
+      <UniqueIdentifier>{960da9b5-3eec-45cd-89be-5cb2604752d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\log4cplus\boost">
+      <UniqueIdentifier>{da07d711-d624-4810-9e83-977ec9d40316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\log4cplus\helpers">
+      <UniqueIdentifier>{9ab9bc57-1a8d-4b46-8d0e-6c0cb122c733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\log4cplus\internal">
+      <UniqueIdentifier>{02283bc7-2343-4a07-84e4-f3a6e1b18f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\log4cplus\spi">
+      <UniqueIdentifier>{36f7698f-c0a2-44eb-8c7d-867fe9c8aac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\log4cplus\thread">
+      <UniqueIdentifier>{78008c85-9f7a-48fa-a5b3-da503cd4abc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\log4cplus\thread\impl">
+      <UniqueIdentifier>{9a35219d-5023-4f05-ad8c-0ab05aaef0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Toolbox">
+      <UniqueIdentifier>{1c9ef656-8882-497a-8837-91ebdced09a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{188a197d-f7de-45d5-a73f-9a96f1e22f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Language">
+      <UniqueIdentifier>{10a8f83f-cd4f-472c-a710-dc522293ad3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FileTypes">
+      <UniqueIdentifier>{7df2585d-3aca-4b95-b3c8-e98243606656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Configuration">
+      <UniqueIdentifier>{3fd891dd-78af-4995-ab2b-20c441bb27c1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GameTemplate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_GameTemplate.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_GameTemplate.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_GameTemplate.cpp">
-      <Filter>Generated Files</Filter>
-    </ClCompile>
     <ClCompile Include="Logger.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="StringToolbox.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="GameTemplate.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="GameTemplate.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="GameTemplate.qrc">
-      <Filter>Resource Files</Filter>
-    </CustomBuild>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="GameTemplate.rc" />
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringToolbox.cpp">
+      <Filter>Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="IFocusable.cpp">
+      <Filter>Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Translator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileToolbox.cpp">
+      <Filter>Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVFile.cpp">
+      <Filter>FileTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>FileTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="INIFile.cpp">
+      <Filter>FileTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="Configurator.cpp">
+      <Filter>Source Files\Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWatcherThread.cpp">
+      <Filter>FileTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWriterThread.cpp">
+      <Filter>FileTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="CNamedMutex.cpp">
+      <Filter>Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="CObservable.cpp">
+      <Filter>Toolbox</Filter>
+    </ClCompile>
+    <ClCompile Include="CSingleInstanceChecker.cpp">
+      <Filter>Toolbox</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Constants.h">
@@ -86,14 +134,591 @@
     <ClInclude Include="Logger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StringToolbox.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio.hpp">
+      <Filter>include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Config.hpp">
+      <Filter>include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics.hpp">
+      <Filter>include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Main.hpp">
+      <Filter>include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Network.hpp">
+      <Filter>include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\OpenGL.hpp">
+      <Filter>include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System.hpp">
+      <Filter>include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window.hpp">
+      <Filter>include\SFML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\AlResource.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\Export.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\InputSoundFile.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\Listener.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\Music.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\OutputSoundFile.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\Sound.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\SoundBuffer.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\SoundBufferRecorder.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\SoundFileFactory.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\SoundFileReader.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\SoundFileWriter.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\SoundRecorder.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\SoundSource.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Audio\SoundStream.hpp">
+      <Filter>include\SFML\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\BlendMode.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\CircleShape.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Color.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\ConvexShape.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Drawable.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Export.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Font.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Glsl.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Glyph.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Image.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\PrimitiveType.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Rect.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\RectangleShape.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\RenderStates.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\RenderTarget.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\RenderTexture.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\RenderWindow.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Shader.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Shape.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Sprite.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Text.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Texture.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Transform.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Transformable.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\Vertex.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\VertexArray.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Graphics\View.hpp">
+      <Filter>include\SFML\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Network\Export.hpp">
+      <Filter>include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Network\Ftp.hpp">
+      <Filter>include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Network\Http.hpp">
+      <Filter>include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Network\IpAddress.hpp">
+      <Filter>include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Network\Packet.hpp">
+      <Filter>include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Network\Socket.hpp">
+      <Filter>include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Network\SocketHandle.hpp">
+      <Filter>include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Network\SocketSelector.hpp">
+      <Filter>include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Network\TcpListener.hpp">
+      <Filter>include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Network\TcpSocket.hpp">
+      <Filter>include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Network\UdpSocket.hpp">
+      <Filter>include\SFML\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\Clock.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\Err.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\Export.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\FileInputStream.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\InputStream.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\Lock.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\MemoryInputStream.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\Mutex.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\NativeActivity.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\NonCopyable.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\Sleep.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\String.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\Thread.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\ThreadLocal.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\ThreadLocalPtr.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\Time.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\Utf.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\Vector2.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\System\Vector3.hpp">
+      <Filter>include\SFML\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\Context.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\ContextSettings.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\Event.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\Export.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\GlResource.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\Joystick.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\Keyboard.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\Mouse.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\Sensor.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\Touch.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\VideoMode.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\Window.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\WindowHandle.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\SFML\Window\WindowStyle.hpp">
+      <Filter>include\SFML\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\appender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\asyncappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\callbackappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\clfsappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\clogger.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\config.hxx">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\configurator.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\consoleappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\fileappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\fstreams.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\hierarchy.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\hierarchylocker.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\initializer.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\layout.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\log4cplus.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\log4judpappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\logger.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\loggingmacros.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\loglevel.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\mdc.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\msttsappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\ndc.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\nteventlogappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\nullappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\qt4debugappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\qt5debugappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\socketappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\streams.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\syslogappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\tchar.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\tracelogger.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\tstring.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\version.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\win32consoleappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\win32debugappender.h">
+      <Filter>include\log4cplus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\boost\deviceappender.hxx">
+      <Filter>include\log4cplus\boost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\config\macosx.h">
+      <Filter>include\log4cplus\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\config\win32.h">
+      <Filter>include\log4cplus\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\config\windowsh-inc.h">
+      <Filter>include\log4cplus\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\appenderattachableimpl.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\connectorthread.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\fileinfo.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\lockfile.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\loglog.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\pointer.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\property.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\queue.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\snprintf.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\socket.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\socketbuffer.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\stringhelper.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\thread-config.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\helpers\timehelper.h">
+      <Filter>include\log4cplus\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\internal\cygwin-win32.h">
+      <Filter>include\log4cplus\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\internal\env.h">
+      <Filter>include\log4cplus\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\internal\internal.h">
+      <Filter>include\log4cplus\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\internal\socket.h">
+      <Filter>include\log4cplus\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\spi\appenderattachable.h">
+      <Filter>include\log4cplus\spi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\spi\factory.h">
+      <Filter>include\log4cplus\spi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\spi\filter.h">
+      <Filter>include\log4cplus\spi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\spi\loggerfactory.h">
+      <Filter>include\log4cplus\spi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\spi\loggerimpl.h">
+      <Filter>include\log4cplus\spi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\spi\loggingevent.h">
+      <Filter>include\log4cplus\spi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\spi\objectregistry.h">
+      <Filter>include\log4cplus\spi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\spi\rootlogger.h">
+      <Filter>include\log4cplus\spi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\thread\syncprims.h">
+      <Filter>include\log4cplus\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\thread\syncprims-pub-impl.h">
+      <Filter>include\log4cplus\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\thread\threads.h">
+      <Filter>include\log4cplus\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\thread\impl\syncprims-cxx11.h">
+      <Filter>include\log4cplus\thread\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\thread\impl\syncprims-impl.h">
+      <Filter>include\log4cplus\thread\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\thread\impl\syncprims-pmsm.h">
+      <Filter>include\log4cplus\thread\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\thread\impl\threads-impl.h">
+      <Filter>include\log4cplus\thread\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\include\log4cplus\thread\impl\tls.h">
+      <Filter>include\log4cplus\thread\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringToolbox.h">
+      <Filter>Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="IFocusable.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Translator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileToolbox.h">
+      <Filter>Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVFile.h">
+      <Filter>FileTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>FileTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="INIFile.h">
+      <Filter>FileTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Configurator.h">
+      <Filter>Source Files\Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWatcherThread.h">
+      <Filter>FileTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWriterThread.h">
+      <Filter>FileTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="CNamedMutex.h">
+      <Filter>Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="CObservable.h">
+      <Filter>Toolbox</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingleInstanceChecker.h">
+      <Filter>Toolbox</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\lib\include\SFML\Audio\SoundFileFactory.inl">
+      <Filter>include\SFML\Audio</Filter>
+    </None>
+    <None Include="..\lib\include\SFML\Graphics\Glsl.inl">
+      <Filter>include\SFML\Graphics</Filter>
+    </None>
+    <None Include="..\lib\include\SFML\Graphics\Rect.inl">
+      <Filter>include\SFML\Graphics</Filter>
+    </None>
+    <None Include="..\lib\include\SFML\System\String.inl">
+      <Filter>include\SFML\System</Filter>
+    </None>
+    <None Include="..\lib\include\SFML\System\Thread.inl">
+      <Filter>include\SFML\System</Filter>
+    </None>
+    <None Include="..\lib\include\SFML\System\ThreadLocalPtr.inl">
+      <Filter>include\SFML\System</Filter>
+    </None>
+    <None Include="..\lib\include\SFML\System\Utf.inl">
+      <Filter>include\SFML\System</Filter>
+    </None>
+    <None Include="..\lib\include\SFML\System\Vector2.inl">
+      <Filter>include\SFML\System</Filter>
+    </None>
+    <None Include="..\lib\include\SFML\System\Vector3.inl">
+      <Filter>include\SFML\System</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameTemplate.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

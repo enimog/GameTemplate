@@ -5,13 +5,16 @@
 
 #pragma once
 
+// windows stuff
 #include "targetver.h"
-
-#include <stdio.h>
-#include <tchar.h>
-#include <string>
 #include <windows.h>
+
+// common std includes
+#include <memory>
+#include <vector>
+#include <string>
+#include <map>
+
+// Personnal stuff
 #include "StringToolbox.h"
 #include "Logger.h"
-
-// TODO: reference additional headers your program requires here
